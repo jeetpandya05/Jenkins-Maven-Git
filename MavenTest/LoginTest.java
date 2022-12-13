@@ -16,7 +16,7 @@ public class LoginTest {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://demo.guru99.com/test/login.html");
+		driver.get("https://demo.guru99.com/test/login.htm");
 		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
 		driver.findElement(By.id("passwd")).sendKeys("abc123");
 		driver.findElement(By.id("SubmitLogin")).click();
